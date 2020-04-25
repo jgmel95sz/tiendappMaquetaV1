@@ -1,0 +1,7 @@
+ionic start myApp tabs
+
+$ ionic start myApp blank
+ionic generate page contact --spec=false  //no creara el archivo de pruebas
+ionic generate page contact--dry-run // comando de prueba
+ionic serve // inicializar el la web 
+
