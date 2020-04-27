@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ropa",
+    "producto": [
+      {
+        "id": 1,
+        "nombre": "zapatilla nike",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca nike",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "zapatilla adidas",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca ad",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "zapatilla norstar",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca nike",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "zapatilla bata",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca nike",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "cartera renzo costa",
+        "precio": 215,
+        "descripcion": "carteras",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Productos de Primer Necesidad",
+    "producto": [
+      {
+        "id": 1,
+        "nombre": "zapatilla nike",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca nike",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "zapatilla adidas",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca ad",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Accesorios",
+    "producto": [
+      {
+        "id": 1,
+        "nombre": "zapatilla nike",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca nike",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "zapatilla adidas",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca ad",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Electrodomesticos",
+    "producto": [
+      {
+        "id": 1,
+        "nombre": "zapatilla nike",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca nike",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "zapatilla adidas",
+        "precio": 215,
+        "descripcion": "zapatilla baja de la marca ad",
+        "imagen": "kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+      }
+    ]
+  }
+]

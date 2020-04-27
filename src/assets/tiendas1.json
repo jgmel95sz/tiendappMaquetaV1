@@ -1,0 +1,20 @@
+[
+  {
+    "id": 4,
+    "nombre": "Cajamarca",
+    "direccion": "Av. la marina 549",
+    "imagen": ""
+  },
+  {
+    "id": 5,
+    "nombre": "Chiclayo",
+    "direccion": "Av. la marina 549",
+    "imagen": ""
+  },
+  {
+    "id": 6,
+    "nombre": "Talara",
+    "direccion": "Av. la marina 549",
+    "imagen": ""
+  }
+]

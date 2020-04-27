@@ -1,9 +1,40 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>contactos</ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
 
+<ion-content fullscreen>
+  <form [formGroup]="contactForm" (ngSubmit)="onSaveForm()">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Contacto</ion-card-title>
+        <ion-card-subtitle>Datos personales</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+        <ion-list>
+          <ion-item>
+            <ion-label color="dark"  position="stacked">Nombres:</ion-label>
+            <ion-input type="text" placeholder="Ingresar nombres" formControlName="nombre" ></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="dark"  position="stacked">Email:</ion-label>
+            <ion-input type="email" placeholder="Ingresar correo electronico" formControlName="email" ></ion-input>
+          </ion-item>
+          <ion-label color="danger" size="small" position="stacked" *ngIf="email.invalid" >Email invalido</ion-label>
+          <ion-label color="danger" size="small" position="stacked" *ngIf="email.invalid && email.errors.required" >Email requerido</ion-label>
+          <ion-item>
+            <ion-label color="dark"  position="stacked">Celular:</ion-label>
+            <ion-input type="number" placeholder="Ingresar numero de celular" formControlName="celular" ></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label color="dark"  position="stacked">Descripcion:</ion-label>
+            <ion-textarea type="text" placeholder="Ingresar la descripcion" formControlName="descripcion" rows="4" cols="20"></ion-textarea>
+      
+          </ion-item>
+        </ion-list>
+        <ion-button type="submit" color="primary" expand="full">Enviar</ion-button>
+      </ion-card-content>
+    </ion-card>
+  
+
+  
+  </form>
 </ion-content>

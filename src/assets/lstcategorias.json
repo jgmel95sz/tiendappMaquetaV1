@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "nombre": "Todas las categorias"
+  },
+  {
+    "id": 1,
+    "nombre": "Ropa"
+  },
+  {
+    "id": 2,
+    "nombre": "Productos de Primer Necesidad"
+  },
+  {
+    "id": 3,
+    "nombre": "Accesorios"
+  },
+  {
+    "id": 4,
+    "nombre": "Electrodomesticos"
+  }
+]
